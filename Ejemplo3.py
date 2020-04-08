@@ -7,17 +7,16 @@ def main():
 	#En Python3 no es necesario poner window
 	#window = turtle.Screeen()
 	side = turtle.Turtle()
-
 	make_triangle(side)
 	turtle.mainloop()
 
 def make_triangle(side):
 	pass
-	length = int(input("Ingrese el Tamaño del Tiangulo Equilatero"))
+	length = int(input("Ingrese el Tamaño del Tiangulo Equilatero: "))
 
 	for i in range(3):
 		pass
-	make_line_and_turn(side, length)
+		make_line_and_turn(side, length)
 
 def make_line_and_turn(side, length):
 	pass
@@ -26,3 +25,4 @@ def make_line_and_turn(side, length):
 
 if __name__ == '__main__':
 	main()
+
